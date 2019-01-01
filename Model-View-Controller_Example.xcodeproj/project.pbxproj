@@ -12,6 +12,7 @@
 		302227CB21DBD93100114032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302227C921DBD93100114032 /* Main.storyboard */; };
 		302227CD21DBD93300114032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302227CC21DBD93300114032 /* Assets.xcassets */; };
 		302227D021DBD93300114032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302227CE21DBD93300114032 /* LaunchScreen.storyboard */; };
+		302227DB21DBDCD300114032 /* AppleProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302227DA21DBDCD300114032 /* AppleProduct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		302227CC21DBD93300114032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		302227CF21DBD93300114032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		302227D121DBD93300114032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302227DA21DBDCD300114032 /* AppleProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleProduct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		302227D921DBD94F00114032 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				302227DA21DBDCD300114032 /* AppleProduct.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				302227DB21DBDCD300114032 /* AppleProduct.swift in Sources */,
 				302227C821DBD93100114032 /* ViewController.swift in Sources */,
 				302227C621DBD93100114032 /* AppDelegate.swift in Sources */,
 			);

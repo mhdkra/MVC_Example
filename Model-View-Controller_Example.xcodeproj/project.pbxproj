@@ -54,14 +54,38 @@
 		302227C421DBD93100114032 /* Model-View-Controller_Example */ = {
 			isa = PBXGroup;
 			children = (
+				302227D921DBD94F00114032 /* Model */,
+				302227D821DBD94B00114032 /* View */,
+				302227D721DBD94500114032 /* Controller */,
 				302227C521DBD93100114032 /* AppDelegate.swift */,
-				302227C721DBD93100114032 /* ViewController.swift */,
 				302227C921DBD93100114032 /* Main.storyboard */,
 				302227CC21DBD93300114032 /* Assets.xcassets */,
 				302227CE21DBD93300114032 /* LaunchScreen.storyboard */,
 				302227D121DBD93300114032 /* Info.plist */,
 			);
 			path = "Model-View-Controller_Example";
+			sourceTree = "<group>";
+		};
+		302227D721DBD94500114032 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				302227C721DBD93100114032 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		302227D821DBD94B00114032 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		302227D921DBD94F00114032 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
